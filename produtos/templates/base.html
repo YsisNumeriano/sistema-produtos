@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en>
+<head>
+  <meta charset="UTF-8>
+  <meta name="viewport" c initial-scale=1.0>
+  <title>{% block title %}Meu Site{% endblock %}</title>
+</head>
+  <body>
+
+  <div id="header">
+    <h1>{% block header %}Meu Site{% endblock %}</h1>
+  </div>
+
+  <div id="content">
+    {% block content %}{% endblock %}
+  </div>
+
+  <div id="footer">
+    <p>&copy; 2023 Ysis. Todos os direitos reservados.</p>
+  </div>
+
+  </body>
+</html>
